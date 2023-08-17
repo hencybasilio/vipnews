@@ -1,0 +1,42 @@
+.icon-network {
+    display: flex;
+    color: rgba(255, 255, 255, 0.836);
+    margin: auto;
+}
+
+.footer .icon-network li {
+    padding: 5px;
+    list-style: none;
+}
+
+.footer .icon-network a {
+    text-decoration: none;
+}
+.banner-news {
+    margin-top: 5rem;
+}
+.text-justify {
+    text-align: justify;
+    text-overflow: clip;
+}
+.legend-img {
+    position: relative;
+    top:-60px;
+    background-color: rgba(0, 0, 0, 0.788);
+    color: #ffffffce;
+    height: 60px;
+    opacity: .9px;
+}
+.align {
+    text-align: start;
+}
+@media screen and (max-width: 500px) {
+    .icon-network {
+        margin: auto;
+    }
+    .footer-portal {
+        text-align: center;
+        padding: 5px;
+    }
+    
+}
